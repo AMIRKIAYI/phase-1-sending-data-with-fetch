@@ -37,7 +37,7 @@ function addmovie(movie){
     <div class="card-body">
       <h5 class="card-title hind-bold ">${movie.Title}</h5>
       <p class="card-text hind-light">${movie.Plot}.</p>
-      <a href="#" class="btn btn-primary">Watch</a>
+      <a href="${movie.href}" class="btn btn-primary">Watch</a>
       <button class="btn bg-danger"><i class="fa fa-trash"></i> Trash</button>
     </div>
   </div>`
@@ -53,6 +53,11 @@ function addmovie(movie){
 
 
   })
+
+  
+
+  
+  
 }
 
   function deleteData(id){
